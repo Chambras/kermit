@@ -20,6 +20,11 @@ resource_manager "appplatform" "2023-05-01-preview" {
   readme_file_path = "../../swagger/specification/appplatform/resource-manager/readme.md"
 }
 
+resource_manager "appplatform" "2024-05-01-preview" {
+  swagger_tag      = "package-preview-2024-05"
+  readme_file_path = "../../swagger/specification/appplatform/resource-manager/readme.md"
+}
+
 resource_manager "automanage" "2022-05-04" {
   swagger_tag      = "package-2022-05"
   readme_file_path = "../../swagger/specification/automanage/resource-manager/readme.md"
